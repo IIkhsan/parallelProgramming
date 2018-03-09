@@ -3,7 +3,7 @@ project(Task8)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(Task8 main.cpp)
+add_executable(Task8 ebanyvrot.cpp)
 
 set(CMAKE_CXX_COMPILER /usr/local/bin/g++-7)
 set(CMAKE_C_COMPILER /usr/local/bin/gcc-7)

@@ -82,7 +82,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/iikhsan/CLionProjects/Task8/main.cpp">
+		<Unit filename="/Users/iikhsan/CLionProjects/Task8/ebanyvrot.cpp">
 			<Option target="Task8"/>
 		</Unit>
 		<Unit filename="/Users/iikhsan/CLionProjects/Task8/CMakeLists.txt">

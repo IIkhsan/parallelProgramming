@@ -1,12 +1,13 @@
+//
+// Created by Ilyas on 09.03.18.
+//
 #include <iostream>
-#include <iomanip>
 #include <omp.h>
 
-int main() {
+int main(){
     int matrix[100][100], // статический массив
             rows    = 2,      // строки
             columns = 4;      // столбцы
-
 
     // заполнение матрицы
     for (int ix = 0; ix < rows; ix++ )
@@ -39,7 +40,7 @@ int main() {
 
     int out[100]; // выходной вектор
     // умножение элементов матрицы на вектор
-#pragma omp parallel for
+    double start = omp_get_wtime();
     for (int ix = 0; ix < rows; ix++)
     {
         out[ix] = 0;
@@ -47,12 +48,24 @@ int main() {
             out[ix] += matrix[ix][jx] * vector[jx];
     }
 
-    printf("\nрезультирующий вектор:\n");
-    for (int ix = 0; ix < rows; ix++ )
-    {
-        printf("%d\n",out[ix]);
+    double end = omp_get_wtime();
+    double time = end - start;
+    
+    double parallel_start = omp_get_wtime();
+#pragma omp parallel for schedule(dynamic, 4) num_threads(4)
+    for (int ix = 0; ix < rows; ++ix) {
+        out[ix] = 0;
+        for (int jx = 0; jx < columns; jx++) {
+            out[ix] = matrix[ix][jx] * vector[jx];
+        }
     }
+    double parallel_end = omp_get_wtime();
+    double parallel_time = parallel_end - parallel_start;
 
-
+    printf("\nПоследовательно время: %lf, паралельное: %lf", parallel_time, time);
+    for(int ix = 0; ix < rows; ix++){
+        printf("\n%d",out[ix]);
+    }
     return 0;
 }
+

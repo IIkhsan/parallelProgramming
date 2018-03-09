@@ -57,38 +57,38 @@ include CMakeFiles/Task8.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Task8.dir/flags.make
 
-CMakeFiles/Task8.dir/main.cpp.o: CMakeFiles/Task8.dir/flags.make
-CMakeFiles/Task8.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/iikhsan/CLionProjects/Task8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Task8.dir/main.cpp.o"
-	/usr/local/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Task8.dir/main.cpp.o -c /Users/iikhsan/CLionProjects/Task8/main.cpp
+CMakeFiles/Task8.dir/ebanyvrot.cpp.o: CMakeFiles/Task8.dir/flags.make
+CMakeFiles/Task8.dir/ebanyvrot.cpp.o: ../ebanyvrot.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/iikhsan/CLionProjects/Task8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Task8.dir/ebanyvrot.cpp.o"
+	/usr/local/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Task8.dir/ebanyvrot.cpp.o -c /Users/iikhsan/CLionProjects/Task8/ebanyvrot.cpp
 
-CMakeFiles/Task8.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Task8.dir/main.cpp.i"
-	/usr/local/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/iikhsan/CLionProjects/Task8/main.cpp > CMakeFiles/Task8.dir/main.cpp.i
+CMakeFiles/Task8.dir/ebanyvrot.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Task8.dir/ebanyvrot.cpp.i"
+	/usr/local/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/iikhsan/CLionProjects/Task8/ebanyvrot.cpp > CMakeFiles/Task8.dir/ebanyvrot.cpp.i
 
-CMakeFiles/Task8.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Task8.dir/main.cpp.s"
-	/usr/local/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/iikhsan/CLionProjects/Task8/main.cpp -o CMakeFiles/Task8.dir/main.cpp.s
+CMakeFiles/Task8.dir/ebanyvrot.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Task8.dir/ebanyvrot.cpp.s"
+	/usr/local/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/iikhsan/CLionProjects/Task8/ebanyvrot.cpp -o CMakeFiles/Task8.dir/ebanyvrot.cpp.s
 
-CMakeFiles/Task8.dir/main.cpp.o.requires:
+CMakeFiles/Task8.dir/ebanyvrot.cpp.o.requires:
 
-.PHONY : CMakeFiles/Task8.dir/main.cpp.o.requires
+.PHONY : CMakeFiles/Task8.dir/ebanyvrot.cpp.o.requires
 
-CMakeFiles/Task8.dir/main.cpp.o.provides: CMakeFiles/Task8.dir/main.cpp.o.requires
-	$(MAKE) -f CMakeFiles/Task8.dir/build.make CMakeFiles/Task8.dir/main.cpp.o.provides.build
-.PHONY : CMakeFiles/Task8.dir/main.cpp.o.provides
+CMakeFiles/Task8.dir/ebanyvrot.cpp.o.provides: CMakeFiles/Task8.dir/ebanyvrot.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Task8.dir/build.make CMakeFiles/Task8.dir/ebanyvrot.cpp.o.provides.build
+.PHONY : CMakeFiles/Task8.dir/ebanyvrot.cpp.o.provides
 
-CMakeFiles/Task8.dir/main.cpp.o.provides.build: CMakeFiles/Task8.dir/main.cpp.o
+CMakeFiles/Task8.dir/ebanyvrot.cpp.o.provides.build: CMakeFiles/Task8.dir/ebanyvrot.cpp.o
 
 
 # Object files for target Task8
 Task8_OBJECTS = \
-"CMakeFiles/Task8.dir/main.cpp.o"
+"CMakeFiles/Task8.dir/ebanyvrot.cpp.o"
 
 # External object files for target Task8
 Task8_EXTERNAL_OBJECTS =
 
-Task8: CMakeFiles/Task8.dir/main.cpp.o
+Task8: CMakeFiles/Task8.dir/ebanyvrot.cpp.o
 Task8: CMakeFiles/Task8.dir/build.make
 Task8: CMakeFiles/Task8.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/iikhsan/CLionProjects/Task8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Task8"
@@ -99,7 +99,7 @@ CMakeFiles/Task8.dir/build: Task8
 
 .PHONY : CMakeFiles/Task8.dir/build
 
-CMakeFiles/Task8.dir/requires: CMakeFiles/Task8.dir/main.cpp.o.requires
+CMakeFiles/Task8.dir/requires: CMakeFiles/Task8.dir/ebanyvrot.cpp.o.requires
 
 .PHONY : CMakeFiles/Task8.dir/requires
 

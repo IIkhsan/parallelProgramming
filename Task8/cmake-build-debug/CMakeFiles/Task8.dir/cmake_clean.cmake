@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Task8.dir/main.cpp.o"
+  "CMakeFiles/Task8.dir/ebanyvrot.cpp.o"
   "Task8.pdb"
   "Task8"
 )

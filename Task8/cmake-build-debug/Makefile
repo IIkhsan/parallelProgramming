@@ -123,32 +123,32 @@ Task8/fast:
 	$(MAKE) -f CMakeFiles/Task8.dir/build.make CMakeFiles/Task8.dir/build
 .PHONY : Task8/fast
 
-main.o: main.cpp.o
+ebanyvrot.o: ebanyvrot.cpp.o
 
-.PHONY : main.o
+.PHONY : ebanyvrot.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/Task8.dir/build.make CMakeFiles/Task8.dir/main.cpp.o
-.PHONY : main.cpp.o
+ebanyvrot.cpp.o:
+	$(MAKE) -f CMakeFiles/Task8.dir/build.make CMakeFiles/Task8.dir/ebanyvrot.cpp.o
+.PHONY : ebanyvrot.cpp.o
 
-main.i: main.cpp.i
+ebanyvrot.i: ebanyvrot.cpp.i
 
-.PHONY : main.i
+.PHONY : ebanyvrot.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/Task8.dir/build.make CMakeFiles/Task8.dir/main.cpp.i
-.PHONY : main.cpp.i
+ebanyvrot.cpp.i:
+	$(MAKE) -f CMakeFiles/Task8.dir/build.make CMakeFiles/Task8.dir/ebanyvrot.cpp.i
+.PHONY : ebanyvrot.cpp.i
 
-main.s: main.cpp.s
+ebanyvrot.s: ebanyvrot.cpp.s
 
-.PHONY : main.s
+.PHONY : ebanyvrot.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/Task8.dir/build.make CMakeFiles/Task8.dir/main.cpp.s
-.PHONY : main.cpp.s
+ebanyvrot.cpp.s:
+	$(MAKE) -f CMakeFiles/Task8.dir/build.make CMakeFiles/Task8.dir/ebanyvrot.cpp.s
+.PHONY : ebanyvrot.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Task8"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... ebanyvrot.o"
+	@echo "... ebanyvrot.i"
+	@echo "... ebanyvrot.s"
 .PHONY : help
 
 

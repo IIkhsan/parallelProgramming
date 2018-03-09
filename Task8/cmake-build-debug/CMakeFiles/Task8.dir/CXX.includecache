@@ -6,10 +6,8 @@
 
 #IncludeRegexTransform: 
 
-/Users/iikhsan/CLionProjects/Task8/main.cpp
+/Users/iikhsan/CLionProjects/Task8/ebanyvrot.cpp
 iostream
--
-iomanip
 -
 omp.h
 -
