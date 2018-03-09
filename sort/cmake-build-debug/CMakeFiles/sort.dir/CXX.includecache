@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/iikhsan/CLionProjects/sort/main.cpp
+iostream
+-
+ctime
+-
+cstdlib
+-
+omp.h
+/Users/iikhsan/CLionProjects/sort/omp.h
+
